@@ -12,5 +12,11 @@ public class BankAccount {
         return "Account balance :" + balance;
     }
 
+    public String calculateInterest(double rate) {
+        double interest = balance * rate / 100;
+        return "Interest: " + interest;
+    }
+
+
 
 }
