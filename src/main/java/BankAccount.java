@@ -21,5 +21,7 @@ public class BankAccount {
         return "balance"+balance;
     }
 
-
+    public String getAccountStatus() {
+        return "Account is active";
+    }
 }
