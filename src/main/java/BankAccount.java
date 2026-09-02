@@ -2,7 +2,7 @@ public class BankAccount {
 
     private long accountNumber;
     private String accountHolder;
-    private double balance=1200;
+    private double balance=6000;
 
     public String deposit(double amount){
         if(amount<=0)
@@ -10,6 +10,10 @@ public class BankAccount {
         balance=balance+amount;
         System.out.println("Amount deposited: " + amount);
         return "Account balance :" + balance;
+    }
+
+    public String getBalance(){
+        return "balance"+balance;
     }
 
 
