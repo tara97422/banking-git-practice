@@ -17,5 +17,9 @@ public class BankAccount {
     }
 
 
+    public String getBalance(){
+        return "balance"+balance;
+    }
+
 
 }
